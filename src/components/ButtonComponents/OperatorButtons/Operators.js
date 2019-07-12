@@ -14,7 +14,7 @@ export const Operators = (props) => {
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
 
-      {myOperators.map(num => <button onClick={() => props.handler(num.value)}> {num.char} </button>)}
+      {myOperators.map(num => <button onClick={() => props.handler(num.value, "op")}> {num.char} </button>)}
     </div>
   );
 };
