@@ -29,4 +29,8 @@ export const operators = [
   }
 ];
 
+<<<<<<< HEAD
 export const specials = ["C", "x/-", "%"];
+=======
+const specials = ["C", "+/-", "%"];
+>>>>>>> e11fce41c7dc12252baa2ecffa1f953f906ad4ec
